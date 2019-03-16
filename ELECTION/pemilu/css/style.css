@@ -1,0 +1,61 @@
+.jojo{
+	background: rgb(25, 25, 112);
+	background-size: cover;
+}
+/*footer*/
+.footer {
+	border-top:1px solid #dedede;
+	font-family: 'forumregular';
+	font-size:12px;
+	height:36px;
+	text-transform:uppercase;
+
+}
+.footer div {
+	margin:0 auto;
+	overflow:hidden;
+	width:960px;
+
+}
+.footer div p {
+	float:left
+}
+.footer div p.address {
+	margin-left:65px
+}
+.footer div ul {
+	float:left;
+	list-style:none;
+	margin:12px 75px 12px 3px;
+	padding:0
+}
+.footer div ul li:first-child {
+	margin:0
+}
+.footer div ul li {
+	background:url(../img/separator2.png) no-repeat left center;
+	float:left;
+	margin:0 0 0 5px;
+	padding:0 0 0 7px
+}
+.footer div .connect {
+	float:right;
+	margin:12px 0 0 0;
+	width:auto
+}
+.footer div .connect a:first-child {
+	margin:0 10px 0 0
+}
+.footer div ul li a, .footer div .connect a {
+	color:#929191;
+	font-family: 'forumregular';
+	font-size:12px;
+	text-decoration:none;
+	text-transform:uppercase;
+	margin:0 10px 0 0;
+}
+.footer div ul li a:hover, .footer div .connect a:hover {
+	color:#4b4b4b;
+	text-decoration:none
+}
+
